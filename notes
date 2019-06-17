@@ -1,0 +1,14 @@
+propiedad: em
+        unidad relativa al tamaño de fuente especificada mas cerca.
+        toma el tamaño que tenga su padre en caso de no tener ningun 
+        pamaño tomara el tamaño del padre de su padre
+
+propiedad: rem
+        unidad relativa al tamaño de fuente especificada en el ancestro 
+        mas lejano (html o body)
+        si nuesto body tiene un tamaño pues tomara siempre el tamaño del body
+
+propiedad: vh / vw (view port)
+        unidad relativa porcentual con respecto al viewport 
+        
+                
