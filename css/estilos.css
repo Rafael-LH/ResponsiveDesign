@@ -327,6 +327,7 @@ figure {
 .container {
   /* border: 1px solid red; */
   max-width: 1000px;
+  flex: 1; /*toma todo el ancho que este diponible*/
   margin: 0 auto;
   display: inherit;
   justify-content: inherit;
@@ -340,10 +341,25 @@ figure {
      border: 1px solid red;
    }
 }
-@media screen and (max-width: 768px){
-   body{
-     border: 1px solid blue;
-   }
+@media screen and (max-width: 767px){
+    .header{
+       display: block;
+       height: auto; /*el auto es para recetear valores*/
+    } 
+    .header ol{
+      /* flex-direction: column; */ /*para poner en columna tambien se utiliza este*/
+      /* display: block; */
+      display: initial; /*esto es para que se regrese el valor por defecto que haya tenia mi ol*/
+    }
+    .header ol li{
+       height: 50px;
+    }
+    .header a{
+      justify-content: center;
+    }
+    .header .logo{
+      text-align: center;
+    }
 }
 @media screen and (max-width: 480px){
    body{
