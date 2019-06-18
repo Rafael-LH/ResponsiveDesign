@@ -76,6 +76,7 @@ h2 {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  flex-wrap: wrap;
 
 }
 
@@ -113,6 +114,7 @@ h2 {
   padding: 20px;
   background: white;
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
 }
@@ -153,6 +155,7 @@ h2 {
   height: 70px;
   align-items: center;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 ol,
@@ -207,6 +210,7 @@ figure {
   color: white;
   background-color: #1b2127;
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
 }
@@ -264,6 +268,7 @@ figure {
   color: white;
   height: 150px;
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
 }
@@ -321,7 +326,7 @@ figure {
 
 .container {
   /* border: 1px solid red; */
-  width: 1000px;
+  max-width: 1000px;
   margin: 0 auto;
   display: inherit;
   justify-content: inherit;
