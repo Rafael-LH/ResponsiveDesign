@@ -276,9 +276,6 @@ figure {
   justify-content: space-between;
 }
 
-.social {
-}
-
 .social-link {
   display: inline-block;
   width: 50px;
@@ -321,6 +318,7 @@ figure {
   border-radius: 5px;
   width: 100px;
   margin-top: 10px;
+  cursor: pointer;
 }
 
 .form-email h3 { 
@@ -340,9 +338,9 @@ figure {
 }
 
 @media screen and (max-width: 1024px){
-   body{
-     border: 1px solid red;
-   }
+      .contact{
+        padding: 0px 1em;
+      }
 }
 @media screen and (max-width: 767px){
     .header{
@@ -410,10 +408,22 @@ figure {
       margin: -2em .5em .5em; /* el valor que tenemos en la derecha se pasara a la izquierda */
       padding: 1em;
     }
+    .contact{
+      height: auto;
+      padding: 1em 0px;
+      justify-content: center;
+    }
+    .form-email > button{
+        margin: 1em auto;
+    }
+    .footer{
+      justify-content: center;
+      border: 1px solid transparent;
+    }
   
 }
 @media screen and (max-width: 320px){
    body{
-     border: 1px solid purple;
+     /* border: 1px solid purple; */
    }
 }
