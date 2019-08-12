@@ -336,7 +336,9 @@ figure {
   height: inherit;
   flex-wrap: inherit;
 }
-
+.container-html__video{
+    max-width: 100%;
+}
 @media screen and (max-width: 1024px){
       .contact{
         padding: 0px 1em;
