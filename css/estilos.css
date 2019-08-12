@@ -341,6 +341,17 @@ figure {
       .contact{
         padding: 0px 1em;
       }
+      .hero{
+        height: auto; 
+      }
+      .hero-image{
+          width: 100%;
+      }
+      h1{
+        font-size: 2em;
+        position: absolute;
+        padding: 0px 10px;
+      }
 }
 @media screen and (max-width: 767px){
     .header{
@@ -400,6 +411,12 @@ figure {
   }
 }
 @media screen and (max-width: 480px){
+    h1{
+        font-size: 1.3em;
+    }
+    .hero-image{
+      height: 200px;
+    }
     .project-details{
       font-size: 12px;
     }
