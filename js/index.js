@@ -1,7 +1,13 @@
 const $showMenu = document.querySelector("#burger--button");
 const $menu = document.querySelector("#menu");
 
-$showMenu.addEventListener('click', showMenu);
-function showMenu(){
-    $menu.classList.toggle('showMenu');
-}
+$showMenu.addEventListener('click', e => $menu.classList.toggle('showMenu') );
+
+// para validar si tenemos una clase en un elemento html lo hacemos de la siguiente manera
+    // element.classList.contains('nombre-clase')
+
+//de esta manera podemos agregar media querys en js
+const $ipad = window.matchMedia('screen and (max-width: 767px)' );
+//el la constante $ipad guardamos una funcion que se llama addListener
+$ipad.addListener( e => $menu.classList.remove('showMenu') );
+//de esta manera quitamos el menu
