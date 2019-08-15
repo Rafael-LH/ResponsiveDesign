@@ -177,14 +177,36 @@ figure {
   text-decoration: none;
 }
 .menu {
-  height: inherit;
-}
-.header ol {
+  position: fixed;
+  z-index: 3;
+  top: 0;
+  left: -100vw;
+  bottom: 0;
+  width: 100vw;
+  height: 100vh;  
+  width: 100%;
+  background-color: rgba(0, 0, 0, .7);
   display: flex;
-  height: inherit;
+}
+.menu.showMenu{
+  transition: all .4s;
+  left: 0;
+}
+/* input[type=checkbox]:checked ~ .menu{
+    height: 150px;
+} */
+.header ol {
+  margin-top: 50px;
+  width: 100vw;
+  display: flex;
 }
 .header ol li {
   height: inherit;
+}
+.header ol li a:hover{
+   background: #fff;
+   color: #1b2127;
+   transition: all .4s;
 }
 .header a {
   display: flex;
@@ -355,6 +377,30 @@ figure {
 .container-html__video{
     max-width: 100%;
 }
+
+.burger--button{
+  position: fixed;
+  padding: 12px;
+  border-radius: 100%;
+  font-size: 1.2em;
+  background: rgba(0, 0, 0, .7);
+  top: 5px;
+  left: 5px;
+  color: #fff;
+  cursor: pointer;
+  display: none !important;
+  z-index: 4;
+  /* si queremos centrar un elementos el cual tiene las siguientes propiedades */
+  /* width: 40px;
+     height: 40px; */
+  /* lo que hago es poner la propiedad line-height, en 40px para que me centre verticalmente */
+  /* y para que me centre horizontalmente es con text-align: center; */
+
+}
+.btn-menu{
+  display: none;
+}
+
 @media screen and (max-width: 1024px){
       .contact{
         padding: 0px 1em;
@@ -372,6 +418,9 @@ figure {
       }
 }
 @media screen and (max-width: 767px){
+    .burger--button{
+      display: block !important;
+    }
     .header{
        display: block; /*esta propiedad es como flex-direction: colum;*/
        height: auto; /*el auto es para recetear valores*/
@@ -462,3 +511,4 @@ figure {
      /* border: 1px solid purple; */
    }
 }
+
