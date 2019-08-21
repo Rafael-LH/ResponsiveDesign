@@ -10,5 +10,12 @@ propiedad: rem
 
 propiedad: vh / vw (view port)
         unidad relativa porcentual con respecto al viewport 
+
+sudo npm i -g static-server 
+        nos sirve para crear un servidor local y poder probar nuestro sitio web tando en desktop y movile
+        
+static-server 
+        despue de instalar con sudo npm i -g static-server  ponemos en nuestra terminal posicionado en nuestro proyecto
+        el comando static-server y nos creara un servidor statico local         
         
                 

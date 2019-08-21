@@ -1,0 +1,19 @@
+{
+  "name": "responsivedesign",
+  "version": "1.0.0",
+  "description": "JS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rafael-LH/ResponsiveDesign.git"
+  },
+  "author": "Rafael Lopez",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Rafael-LH/ResponsiveDesign/issues"
+  },
+  "homepage": "https://github.com/Rafael-LH/ResponsiveDesign#readme"
+}
