@@ -16,6 +16,13 @@ sudo npm i -g static-server
         
 static-server 
         despue de instalar con sudo npm i -g static-server  ponemos en nuestra terminal posicionado en nuestro proyecto
-        el comando static-server y nos creara un servidor statico local         
+        el comando static-server y nos creara un servidor statico local       
+
+HTMLHint
+        To install a version to the local project folder, run npm install --save-dev htmlhint.
+        To install a global version on the current machine, run npm install --global htmlhint. 
+        nos muestra los errores que tenemos en html, para verlos tenemos que ir a la pestaña de view -> problems 
+
+        Pagina de referencia -> https://marketplace.visualstudio.com/items?itemName=mkaufman.HTMLHint
         
                 

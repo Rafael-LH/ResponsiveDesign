@@ -21,6 +21,5 @@ const $tamLI = $elementsLi.length
                     // e.stopPropagation() previene la propagacion de eventos
                     // e.preventDefault() previene la accion de un elemento por ejemplo un submit o un enlace de un ancle
                     $menu.classList.toggle('showMenu')         
-
             })
     }

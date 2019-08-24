@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/Rafael-LH/ResponsiveDesign/issues"
   },
-  "homepage": "https://github.com/Rafael-LH/ResponsiveDesign#readme"
+  "homepage": "https://github.com/Rafael-LH/ResponsiveDesign#readme",
+  "devDependencies": {
+    "htmlhint": "0.11.0"
+  }
 }
